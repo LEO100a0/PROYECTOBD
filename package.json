@@ -1,1 +1,32 @@
-{"name":"hotel-reservas","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0","start":"node server/index.js","test":"node --test tests/*.test.js"},"dependencies":{"@supabase/supabase-js":"^2.99.0","cors":"^2.8.5","dotenv":"^16.6.1","express":"^5.1.0","express-rate-limit":"^8.2.0","helmet":"^8.1.0","lucide-react":"^0.468.0","pg":"^8.16.3","react":"^19.1.1","react-dom":"^19.1.1"},"devDependencies":{"vite":"^6.4.1"},"engines":{"node":">=22"}}
+{
+  "name": "hotel-reservas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "node server/index.js",
+    "test": "node --test tests/*.test.js",
+    "test:integration": "node --test tests/integration/*.test.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.99.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.0",
+    "helmet": "^8.1.0",
+    "lucide-react": "^0.468.0",
+    "pg": "^8.16.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "vite": "^6.4.1"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
